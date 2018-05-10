@@ -1,0 +1,163 @@
+
+/* banner css */
+
+#logo1 {
+	display:flex;
+	justify-content: center;
+	height: 100px; 
+}
+
+#banner{
+  text-align: center;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.6)),url("images/terrasses1.jpg");
+  background-size: cover;
+  background-position: bottom;
+  padding: 15px 30px;
+  min-height: 50vh;
+  position:relative;
+}
+
+.menu{
+	position: absolute;
+	top:10px;
+	right:25px;
+	color: white;
+	font-size: 20px;
+}
+
+
+#banner h1, #banner h2 {
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  margin-bottom: 30px; 
+}
+
+#banner h1 {
+  font-size: 50px;
+  padding: 15px;
+  margin-bottom: 7px;
+  margin-top: 35px;
+}
+
+#banner h2 {
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+#banner p {
+  color: white;
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+
+.button-pastel {
+  background-color: #E86252;
+  border-color: white;	
+}
+
+.button-pastel:hover {
+  background-color: grey;
+  border-color: #E86252;
+
+  }
+#title h1 {
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 1px;
+}
+
+#title h2{
+	text-align: center;
+	font-size: 15px; 
+	margin-top: 7px;
+}
+.card {
+  padding: 15px;
+  padding-top:5px;
+  margin-bottom: 20px;
+  text-align:center;
+  width: 250px;
+  background-color: #D2CECE;
+  border-radius: 10px;
+}
+
+.event-picture {
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+
+.section h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.section p {
+  font-size: 14px;
+  text-align: center;
+}
+
+#newsletter {
+  text-align: center;
+}
+
+#newsletter h1 {
+	text-align: center;
+	font-size: 25px;
+}
+
+#newsletter h2{
+	text-align: center;
+	font-size: 15px; 
+	margin-top: 7px;
+}
+
+
+/* footer css*/
+
+#footer{
+  padding: 30px;
+  background: rgb(30, 30, 30);
+  color: grey;
+  text-align: center;
+}
+
+#footer a {
+  color: lightgrey;
+  font-size: 40px;
+}
+
+#footer a:hover {
+  color: white;
+}
+
+
+a {
+  color: white;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.space-xxs {
+  padding: 8px 0;
+}
+
+.space-xs {
+  padding: 15px 0; 
+}
+
+.space-s {
+  padding: 30px 0; 
+}
+
+.space-m {
+  padding: 60px 0; 
+}
